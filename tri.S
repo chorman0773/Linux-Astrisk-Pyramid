@@ -54,7 +54,7 @@ recursiveTri:
     
 _start:
     mov %rsp,%rbp
-    mov $3,%rdx
+    mov $3,%rdx ;You can replace the 3 in this line with any (reasonable) number.
     call recursiveTri
     mov $60,%rax
     mov $0,%rdi
